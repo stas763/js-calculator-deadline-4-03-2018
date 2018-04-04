@@ -17,6 +17,12 @@
 //     document.getElementById('out').innerHTML = result;
 // }
 
-document.getElementById('seven').addEventListener('click', function(e) {
-  document.getElementById('display').value += '7';
-});
+
+function display(id){//функция вывода чисел на дисплей
+    pole = document.calc.disp.value;
+    if (value>0)
+        {
+            znach = value.toString()+id.toString();
+            znach = Number(znach);
+            document.calc.disp.value = znach;
+        }
