@@ -10,10 +10,16 @@ input {
     margin-bottom: 3px;
 }
 
-input[type=number]{
+#display {
     width: 245px;
 }
 
-input[class=equals]{
-    width: 124px;
-}
+/*#seven {*/
+/*    width: 60px;*/
+/*    height: 60px;*/
+/*    font-size: 30px;*/
+/*    border-radius: 10px;*/
+/*    margin-bottom: 3px;  */
+/*}*/
+
+
